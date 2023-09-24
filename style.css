@@ -1,0 +1,100 @@
+.name {
+  color: rgb(242, 247, 255);
+  background-color: rgb(65, 69, 88);
+  padding: 24px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  border: 1px solid rgb(67, 70, 91);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.desc {
+  color: rgb(242, 247, 255);
+  background-color: rgb(65, 69, 88);
+  padding: 24px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  /* margin: 20px; */
+  border: 1px solid rgb(67, 70, 91);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.body {
+  color: rgb(242, 247, 255);
+  background-color: rgb(39, 41, 53);
+  padding: 24px;
+  margin: 24px;
+  border: 1px solid rgb(67, 70, 91);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.poems {
+  color: rgb(242, 247, 255);
+  background-color: rgb(15, 23, 41);
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid rgb(67, 70, 91);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+  list-style-type: square;
+  margin: 12px;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(96, 150, 226);
+}
+
+a:hover {
+  color: palevioletred;
+}
+
+hr {
+  border: 1px solid rgb(67, 70, 91);
+}
+
+.author-name {
+  color: rgb(229, 238, 252);
+}
+
+.poem-name {
+  margin-left: 12px;
+  color: rgb(192, 202, 255);
+}
+
+.pushkin {
+  color: #5e73b8;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 24px;
+}
+
+.ahmatova {
+  color: #ad5050;
+  font-size: 115%;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  font-style: oblique;
+  margin-left: 24px;
+}
+
+.lermontov {
+  color: #489355;
+  font-size: 105%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-style: initial;
+  margin-left: 24px;
+}
