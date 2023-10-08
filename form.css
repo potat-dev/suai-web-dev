@@ -1,0 +1,75 @@
+.radio-group label,
+.checkbox-group label {
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+body {
+  background-color: #eee;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1,
+h4,
+img {
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+}
+
+input[type="text"],
+textarea,
+input[type="password"],
+select,
+input[type="date"] {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.actions {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.actions input {
+  margin: 5px;
+}
+
+.actions input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.actions input[type="reset"] {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}

@@ -1,0 +1,73 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="form.css" />
+  <title>Заказ билетов на самолет</title>
+</head>
+
+<body>
+  <h1>Заказ билетов на самолет</h1>
+  <h4>Авиакомпания "Бриз" приветствует Вас!</h4>
+  <div style="display: flex; justify-content: center">
+    <img
+      src="https://pasteimg.com/images/2023/10/05/image.png"
+      alt="image.png"
+      border="0"
+      width="500"
+      height="300"
+    />
+  </div>
+  <br />
+  <h4>Введите данные для регистрации:</h4>
+  <form>
+    <label for="name">Имя:</label>
+    <input type="text" id="name" placeholder="Введите ваше имя" required />
+
+    <label for="address">Куда летим?</label>
+    <textarea
+      id="address"
+      placeholder="Введите адрес назначения"
+      required
+    ></textarea>
+
+    <label for="date">Дата вылета:</label>
+    <input type="date" id="date" required />
+
+    <label>Пол:</label>
+    <div class="radio-group">
+      <input type="radio" id="male" name="gender" value="male" required />
+      <label for="male">Мужской</label>
+      <input type="radio" id="female" name="gender" value="female" required />
+      <label for="female">Женский</label>
+    </div>
+
+    <label>Опции:</label>
+    <div class="checkbox-group">
+      <input type="checkbox" id="food" name="preferences" value="food" />
+      <label for="food">Питание</label>
+      <input type="checkbox" id="film" name="preferences" value="film" />
+      <label for="film">Кино</label>
+      <input type="checkbox" id="wifi" name="preferences" value="wifi" />
+      <label for="wifi">Wi-Fi</label>
+    </div>
+
+    <label for="flight">Выберите самолет:</label>
+    <select id="flight">
+      <option value="flight1">Boeing 737</option>
+      <option value="flight2">Boeing 777</option>
+      <option value="flight3">Airbus A321</option>
+    </select>
+
+    <label for="password">Скидочный купон:</label>
+    <input
+      type="password"
+      id="password"
+      placeholder="Введите скидочный купон"
+    />
+
+    <div class="actions">
+      <input type="submit" value="Заказать" />
+      <input type="reset" value="Сбросить" />
+    </div>
+  </form>
+</body>
