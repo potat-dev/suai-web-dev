@@ -1,0 +1,115 @@
+.flex-container-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: #a5d8ff;
+  margin-bottom: 10px;
+}
+
+.flex-container-1 > div {
+  flex-direction: column;
+  width: 200px;
+  height: 50px;
+  background: #74c0fc;
+  /* padding: 10px; */
+  text-align: center;
+  /* font-size: 20pt; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 2 */
+
+/* .flex-container {
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+}
+
+.flex-container > div {
+  background-color: DodgerBlue;
+  color: white;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  flex-grow: 1;
+}
+
+.flex-container :nth-child(2) {
+  flex-grow: 2;
+} */
+
+.flex-container-2 {
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.flex-container-2 > div {
+  background-color: #bac8ff;
+  /* color: white; */
+  /* margin: 10px; */
+  padding: 0px 20px;
+  /* text-align: center; */
+  /* line-height: 75px; */
+  /* font-size: 30px; */
+  flex: 1;
+}
+
+.flex-container-2 > div:nth-child(2) {
+  flex: 2;
+
+  p {
+    margin-top: 0;
+  }
+}
+
+img {
+  float: left;
+  /* margin-right: 20px; отступ между картинкой и текстом */
+  padding-right: 20px; /* отступ справа */
+  margin-bottom: 20px;
+  max-width: 400px;
+  min-width: 200px;
+}
+
+/* container 3 */
+
+.flex-container-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: #e6e6e6;
+  margin-bottom: 10px;
+}
+
+.flex-container-3 > div {
+  border: #505050;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-container-1 {
+    flex-direction: column;
+  }
+
+  .flex-container-1 > div {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .flex-container-1 > div:last-child {
+    margin-bottom: 0px;
+  }
+
+  .flex-container-2 {
+    flex-direction: column;
+  }
+}
